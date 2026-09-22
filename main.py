@@ -17,4 +17,4 @@ print("Accuracy Score is :" , accuracy)
 
 with open("iris_model.pkl" , "wb") as file:
     pickle.dump(IrisPredModel , file)
-    print("Model Saved in pkl format")
+    print("Model Saved")
